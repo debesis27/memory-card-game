@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Galada&display=swap');
+
+#header {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-image: linear-gradient(black, rgb(62, 102, 35));
+	color: darkgoldenrod;
+	font-family: 'Acme';
+}
+
+#header h1 {
+	margin-top: 0;
+	font-size: 50px;
+}
+
+#header-right-section {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+#header span {
+	font-size: 20px;
+}

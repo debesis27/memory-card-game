@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import Card from './Card';
 import './CardGrid.css'
-import Pokemon from '/Users/shiva/OneDrive/Desktop/Coding Files/Web Dev/Frontend/React/Memory Card game/memory-card-game/public/game-logo.jpg';
 
 function getRandomIntInclusive(min, max) {
   min = Math.ceil(min);
